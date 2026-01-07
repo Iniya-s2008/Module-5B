@@ -11,9 +11,19 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 4. **Store Result**: Store the sorted result in a new array.
 5. **Display Output**: Print the original array and the column-wise sorted array.
 
-## 🧾 Program
-Add code here
+## 🧾 Program:
+```
+import numpy as np 
+a=np.array(eval(input())) 
+print("Given array") 
+print(end=" ") 
+print(a) 
+print() 
+print(np.sort(a,axis=0))
+```
+Output:
+<img width="655" height="426" alt="438903440-648a4d69-1fc4-4c35-9f30-c292cffd01b8" src="https://github.com/user-attachments/assets/1e1c6b55-5144-4a66-b511-740f980f4063" />
 
-## Output
 
-## Result
+## Result:
+Thus, the program has been successfully executed.
